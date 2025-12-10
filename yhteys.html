@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ota yhteyttä - MarketGlass</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">MarketGlass</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Etusivu</a></li>
+                    <li><a href="tuotteet.html">Mallisto</a></li>
+                    <li><a href="yhteys.html" class="active">Yhteystiedot</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">🛒</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h1>Ota yhteyttä</h1>
+            <p>Onko sinulla kysyttävää laseista tai ennakkotilauksesta? Asiakaspalvelumme auttaa.</p>
+            
+            <div class="contact-container">
+                <form action="#" method="post" class="contact-form">
+                    <label for="name">Nimi:</label>
+                    <input type="text" id="name" name="name" placeholder="Emilia Esimerkki" required>
+
+                    <label for="email">Sähköposti:</label>
+                    <input type="email" id="email" name="email" placeholder="posti@esimerkki.fi" required>
+
+                    <label for="message">Viesti:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Kirjoita viestisi tähän..." required></textarea>
+
+                    <button type="submit" class="cta-button">Lähetä viesti</button>
+                </form>
+
+                <div class="contact-info">
+                    <h3>Asiakaspalvelu</h3>
+                    <p>📧 tuki@marketglass.fi</p>
+                    <p>📞 040 123 4567</p>
+                    <p>📍 Teknologiakuja 1, Helsinki</p>
+                    
+                    <h3>UKK</h3>
+                    <p><strong>Toimitusaika?</strong><br> Ennakkotilaukset toimitetaan 2 kk sisällä.</p>
+                    <p><strong>Palautusoikeus?</strong><br> 30 päivän tyytyväisyystakuu.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 MarketGlass Oy.</p>
+            <p style="font-size: 0.8rem; margin-top: 5px; opacity: 0.7;">
+                Sivuston kuvituskuvat on luotu tekoälyllä (Google Gemini).
+        </div>
+    </footer>
+
+</body>
+</html>

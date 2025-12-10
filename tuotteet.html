@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MarketGlass mallisto: Basic, Pro ja Premium. Valitse sinulle sopivat älylasit.">
+    <title>MarketGlass - Mallisto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">MarketGlass</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Etusivu</a></li>
+                    <li><a href="tuotteet.html" class="active">Mallisto</a></li>
+                    <li><a href="yhteys.html">Yhteystiedot</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">🛒</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="products-intro">
+            <h1>Valitse sinulle sopiva malli</h1>
+            <p>Yksinkertainen hinnoittelu. Aina laadukas kokemus.</p>
+        </section>
+
+        <section class="product-grid">
+            <article class="product-card">
+                <h2>Basic</h2>
+                <img src="kuvat/lasi_basic.jpg" alt="MarketGlass Basic malli">
+                <p class="price">299 €</p>
+                <p>Aloittelijalle. Perustoiminnot kaupassa käyntiin.</p>
+                <ul>
+                    <li>Viivakoodin luku</li>
+                    <li>Perusravintoarvot</li>
+                </ul>
+                <button class="cta-button">Lisää ostoskoriin</button>
+            </article>
+
+            <article class="product-card highlight">
+                <div class="badge">SUOSITUIN</div>
+                <h2>Pro</h2>
+                <img src="kuvat/lasi_pro.jpg" alt="MarketGlass Pro malli">
+                <p class="price">499 €</p>
+                <p>Aktiiviselle arjen hallitsijalle.</p>
+                <ul>
+                    <li>Reseptien projisointi</li>
+                    <li>Allergeenivaroitukset</li>
+                    <li>12h akunkesto</li>
+                </ul>
+                <button class="cta-button">Lisää ostoskoriin</button>
+            </article>
+
+            <article class="product-card">
+                <h2>Premium</h2>
+                <img src="kuvat/lasi_premium.jpg" alt="MarketGlass Premium malli">
+                <p class="price">799 €</p>
+                <p>Täydellinen MR-kokemus ilman kompromisseja.</p>
+                <ul>
+                    <li>Käsien seuranta</li>
+                    <li>Ääniohjaus</li>
+                    <li>24h akunkesto</li>
+                </ul>
+                <button class="cta-button">Lisää ostoskoriin</button>
+            </article>
+        </section>
+
+        <section class="comparison">
+            <h2>Tekniset tiedot</h2>
+            <table>
+                <caption>Mallien ominaisuusvertailu</caption>
+                <thead>
+                    <tr>
+                        <th>Ominaisuus</th>
+                        <th>Basic</th>
+                        <th>Pro</th>
+                        <th>Premium</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Akunkesto</td>
+                        <td>6h</td>
+                        <td>12h</td>
+                        <td>24h</td>
+                    </tr>
+                    <tr>
+                        <td>Reseptiprojisointi</td>
+                        <td>Ei</td>
+                        <td>Kyllä</td>
+                        <td>Kyllä (3D)</td>
+                    </tr>
+                    <tr>
+                        <td>Paino</td>
+                        <td>80g</td>
+                        <td>75g</td>
+                        <td>60g (Titaani)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 MarketGlass Oy.</p>
+            <p style="font-size: 0.8rem; margin-top: 5px; opacity: 0.7;">
+                Sivuston kuvituskuvat on luotu tekoälyllä (Google Gemini).
+        </div>
+    </footer>
+
+</body>
+</html>
